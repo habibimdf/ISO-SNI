@@ -14,7 +14,7 @@ from engine9 import CustomDictionary
 
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
-    page_title="ISO Doc Master",
+    page_title="ISO-SNI GENERATOR BETA",
     page_icon="📑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -389,7 +389,7 @@ if st.session_state.get('_action') == 'terjemah' and st.session_state.get('_opt_
 st.markdown("---")
 st.markdown(
     "<div style='text-align:center; color:gray; font-size:0.8rem;'>"
-    "© 2026 ISO Doc Master. All rights reserved."
+    "© 2026 ISO-SNI GENERATOR. All rights reserved."
     "</div>",
     unsafe_allow_html=True
 )
